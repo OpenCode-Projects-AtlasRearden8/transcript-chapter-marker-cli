@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:44.000
+Welcome to the Local AI Workshop. Today we set up a small language model right on your laptop.
+
+00:00:45.000 --> 00:01:01.000
+First step is downloading Ollama from the website, one install command and done.
+
+00:01:02.000 --> 00:04:11.000
+Now we pull a model. The pull command grabs a few gigabytes, so stretch your legs while it runs.
+
+00:04:12.000 --> 00:05:29.000
+With a model loaded we call it through simple HTTP requests from local scripts.
+
+00:05:30.000 --> 00:07:04.000
+You can tune a model with a short modelfile without sending data anywhere.
+
+00:07:05.000 --> 00:07:24.000
+Privacy is the point: your words never leave this machine.

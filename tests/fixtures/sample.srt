@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:12,000
+Welcome to the Local AI Workshop. Today we set up a small language model
+right on your laptop.
+
+2
+00:00:23,000 --> 00:00:41,500
+First we download Ollama from the website and run one install command.
+
+3
+00:01:02,000 --> 00:01:30,000
+Now we pull a model. The pull command grabs a few gigabytes, so stretch first.
+
+4
+00:02:11,000 --> 00:02:40,000
+With the model running we try a chat prompt about cameras and photography.
+
+5
+00:03:05,000 --> 00:03:22,000
+Privacy is the point: your words never leave this machine.

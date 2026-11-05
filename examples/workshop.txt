@@ -1,0 +1,11 @@
+[0:00] Welcome to the Local AI Workshop. Today we set up a small language model right on your laptop.
+
+[0:45] First step is downloading Ollama from the website, one install command and done.
+
+[1:02] Now we pull a model. The pull command grabs a few gigabytes, so stretch your legs while it runs.
+
+[4:12] With a model loaded we call it through simple HTTP requests from local scripts.
+
+[5:30] You can tune a model with a short modelfile without sending data anywhere.
+
+[7:05] Privacy is the point: your words never leave this machine.

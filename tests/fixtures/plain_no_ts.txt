@@ -1,0 +1,9 @@
+Episode outline notes for the workshop recording.
+
+Welcome to the Local AI Workshop. Today we set up a small language model right on your laptop.
+
+We download Ollama and pull a model to the laptop. Ollama runs a local server on port 11434.
+
+Modelfiles let you tune a model. Local scripts call the model with simple curl requests.
+
+Privacy is the point: your words never leave this machine.

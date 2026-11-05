@@ -1,0 +1,11 @@
+Episode outline notes for the workshop recording.
+
+Welcome to the Local AI Workshop. Today we set up a small language model right on your laptop.
+
+Ollama installs with one command and pulls a few gigabytes of model weights.
+
+With a model loaded we call it through simple HTTP requests from local scripts.
+
+You can tune a model with a short modelfile without sending data anywhere.
+
+Privacy is the point: your words never leave this machine.

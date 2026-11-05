@@ -1,0 +1,8 @@
+[0:00] Welcome to the workshop. We record from a small home studio.
+[0:45] Today we set up a small language model right on your laptop.
+[1:30] We download Ollama and pull a model to the machine.
+[3:00] Ollama runs a local server on port one one four three four.
+[3:30] Modelfiles let you tune a model without sending data anywhere.
+[5:12] Local scripts can call the model with simple curl requests.
+[6:10] Cameras and photography tips from the studio lights today.
+[7:05] Privacy is the point: your words never leave this machine.

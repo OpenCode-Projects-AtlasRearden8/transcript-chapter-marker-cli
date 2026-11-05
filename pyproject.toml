@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transcript-chapter-marker-cli"
+version = "0.1.0"
+description = "Offline CLI that adds chapter markers, a clickable mm:ss index and a topics list to raw transcripts (plain text, SRT, VTT). Optional topic naming via any OpenAI-compatible endpoint (Ollama), off by default."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Asdale Dynamics, LLC" }]
+keywords = ["transcript", "chapters", "youtube", "audiobook", "subtitles", "srt", "vtt", "ollama", "cli"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Text Processing :: Markup",
+  "Topic :: Utilities",
+]
+dependencies = []
+
+[project.scripts]
+transcript-chapter-marker = "transcript_chapter_marker.cli:cli"
+tcm = "transcript_chapter_marker.cli:cli"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["transcript_chapter_marker"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
